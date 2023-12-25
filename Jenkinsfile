@@ -20,12 +20,5 @@ pipeline {
         }
     }
     
-    post {
-        failure {
-            // Rollback logic on failed deployment
-        }
-        success {
-            // Notification logic for successful deployment
-        }
-    }
+   
 }
