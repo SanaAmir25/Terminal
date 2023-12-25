@@ -7,11 +7,11 @@ pipeline {
                 sh 'docker build -t terminal-web .'
             }
         }
-        stage('Test') {
-            steps {
+       // stage('Test') {
+           // steps {
                 // Add test commands
-            }
-        }
+          //  }
+      //  }
         stage('Deploy') {
             steps {
                 sh 'docker push sanaamir25/terminal-web'
